@@ -236,13 +236,13 @@
             // emailComboBox
             // 
             this.emailComboBox.AllowDrop = true;
-            this.emailComboBox.DisplayMember = "sdewey@i-parcel.com";
+            this.emailComboBox.DisplayMember = "[email removed]";
             this.emailComboBox.FormattingEnabled = true;
             this.emailComboBox.Items.AddRange(new object[] {
-            "sdewey@i-parcel.com"});
+            "[email removed]"});
             this.emailComboBox.Location = new System.Drawing.Point(9, 19);
             this.emailComboBox.Name = "emailComboBox";
-            this.emailComboBox.Size = new System.Drawing.Size(317, 21);
+            this.emailComboBox.Size = new System.Drawing.Size(376, 21);
             this.emailComboBox.TabIndex = 13;
             this.emailComboBox.Text = "none";
             // 
