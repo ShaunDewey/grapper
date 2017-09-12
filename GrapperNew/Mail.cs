@@ -29,9 +29,9 @@ namespace GrapperNew
                 client.Timeout = 10000;
                 client.DeliveryMethod = SmtpDeliveryMethod.Network;
                 client.UseDefaultCredentials = false;
-                client.Credentials = new System.Net.NetworkCredential("sdewey@i-parcel.com", "xegwvautyuulbndy");
+                client.Credentials = new System.Net.NetworkCredential("[email removed]", "[application password removed]");
 
-                MailMessage mail = new MailMessage("grapper@i-parcel.com", Address, Subject, Body);
+                MailMessage mail = new MailMessage("[email removed]", Address, Subject, Body);
                 mail.BodyEncoding = UTF8Encoding.UTF8;
                 mail.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
 
